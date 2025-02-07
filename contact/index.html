@@ -8,7 +8,15 @@
   </head>
   <body>
     <h1>Contact</h1>
-
+    <form action="mailto:cmzheng@mit.edu" method="POST" enctype="text/plain">
+      <label for="name"> Email: </label>
+      <input type="email" name="email" />
+      <label for="name"> Subject: </label>
+      <input name="subject" />
+      <label for="name"> Body: </label>
+      <textarea name="body"> </textarea>
+      <button>Submit</button>
+    </form>
     <!-- Navigation menu: -->
     <nav>
       <!-- Navigation link to the home page -->
@@ -20,6 +28,7 @@
       <a href="../projects/index.html">Projects</a>
       <!-- Navigation link to this same page i.e. contact/index.html-->
       <a href="index.html">Contact</a>
+      <a href="../resume/index.html">Resume</a>
       <!-- Please note that here we do NOT use "../" because index.html is already in the current folder.-->
 
       <!-- Complete the navigation as needed following the structure -->
@@ -28,15 +37,5 @@
         >GitHub Profile</a
       >
     </nav>
-
-    <form action="mailto:cmzheng@mit.edu" method="POST" enctype="text/plain">
-      <label for="name"> Email: </label>
-      <input type="email" name="email" />
-      <label for="name"> Subject: </label>
-      <input name="subject" />
-      <label for="name"> Body: </label>
-      <textarea name="body"> </textarea>
-      <button>Submit</button>
-    </form>
   </body>
 </html>

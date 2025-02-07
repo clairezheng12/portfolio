@@ -13,7 +13,7 @@
     <!-- Start of "head" section  -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Claire Zheng: Personal site and portfolio</title>
+    <title>Resume</title>
 
     <!-- Next line is for Step 5, to link the stylesheet to the HTML page. We will use "link" for this  -->
     <link rel="stylesheet" href="style.css" />
@@ -25,22 +25,38 @@
   </head>
   <!-- End of "head" section  -->
 
+  <style>
+    .pdf {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+    }
+
+    .pdf,
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+
   <body>
     <!-- Start of "body" section  -->
 
     <!-- <h1> (Heading 1) represents the main heading of a webpage or a section.-->
-    <h1>Claire Zheng</h1>
+    <h1>Resume</h1>
 
-    <!-- <p> (Paragraph) represents a paragraph of text.-->
-    <p>MIT '26, Course 6-3</p>
-
-    <!-- <img> (Image) tag is used to display images.-->
-    <img
-      src="clairez_4.jpg"
-      alt="A headshot of Claire Zheng"
-      width="400"
+    <object
+      type="application/pdf"
+      data="https://drive.google.com/file/d/1VPJnmfr6NLbHkT2JQN86JxCNtXkit7eW/view?usp=sharing"
+      width="800"
       height="500"
-    />
+    ></object>
+
     <!-- Example:
             <img src="images/my_image.jpeg" alt="A description of the image">
         -->
