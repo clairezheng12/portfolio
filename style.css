@@ -167,5 +167,63 @@ h6 {
 #resume {
   /* Use this # as your ID selector */
   max-width: 50rem;
-  /* ... */
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#download p a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--border);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#download p a:hover {
+  background-color: var(--color-accent);
+}
+
+#resume h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#resume h4 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.5rem;
+}
+
+#resume section article {
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+#resume section article:last-child {
+  border-bottom: none;
+}
+
+#resume h5 {
+  font-size: 1.2rem;
+  color: var(--color-accent);
+  margin-bottom: 0.3rem;
+}
+
+#resume time {
+  display: block;
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+#resume p {
+  font-size: 1rem;
+  line-height: 1.5;
 }
