@@ -10,12 +10,13 @@ function $$(selector, context = document) {
 let navLinks = $$("nav a");
 
 // 2.2
-let currentLink = "TODO: FILL IN!!";
+let currentLink = navLinks.find(
+  (a) => a.host === location.host && a.pathname === location.pathname
+);
 
 // 2.3
 if (currentLink) {
-  // or if (currentLink !== undefined)
-  // TODO: FILL IN!!
+  currentLink.classList.add("current");
 }
 
 // STEP 3
